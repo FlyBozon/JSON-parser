@@ -37,8 +37,6 @@ void menu() {
 }
 
 void help() {
-	cout << "Project jest stworzony przez Mariia Krykun" << endl;
-	cout << "ACiR1, 196742" << endl;
 	cout << "Na potrzeby projektu wykorzystano takie operacii: " << endl;
 	cout << "-otwieranie pliku - biblioteka fstream, file.open(path, ios::app | ios::out | ios::in)" << endl;
 	cout << "-sprawdzanie czy plik zostal otwarty - .is_open()" << endl;
